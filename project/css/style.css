@@ -1,0 +1,199 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a {color:darkgrey;
+transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color:hotpink;
+}
+
+/* BODY
+----------*/
+body { 
+  background: url(../images/uni.jpg) no-repeat fixed;
+  background-position:50%;
+  background-size:100%;
+  background-size: cover; 
+  font-family: "Nixie One", serif;
+  line-height: 1.5;
+}
+	h1,h2,h3 {
+		text-transform: uppercase;
+		font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400px
+	}
+
+h1 {
+    font-size: 80px;
+}
+h2 {
+    border-bottom: 1px solid #cccccc ;
+    font-size: 32px;
+}
+
+h1,h2,h3,h4,h5,h6, p, ul {
+  margin: 0;
+}
+
+
+/* HEADER
+----------*/
+header {
+  text-align:center;
+  padding: 150px 0;
+}
+
+/* ABOUT ME / PROFILE
+----------------------*/
+
+.content-wrap {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding:40px 0;
+}
+
+.profile img {
+  width: 50%; 
+  border: 3px solid black;
+  -webkit-border-radius:50%;
+  ;
+}
+.profile{
+  font-size: 0px;
+  background: rgba(0,0,0,0.3);}
+
+
+.summary {display:inline-block;
+  width:30%;
+  font-size: 16px;
+  vertical-align: top;
+  padding-left:20px;
+}
+
+.profile, .skills, .contact {
+  color:white;
+}
+
+.profile h2{ 
+border: none;
+background: hotpink;
+display: inline-block;
+padding: 10px 20px;}
+
+/* WORK EXPERIENCE
+-------------------*/
+.work-experience {
+
+  color: white;
+}
+
+.work-experience, .education {background-color: black }
+
+.work-experience .item {font-size: 0px;
+padding: 50px 0 50px 0;
+border-bottom: 2px solid;
+}
+
+.details, .description
+{ width:50%;
+  display:inline-block;
+  vertical-align: top;
+  font-size: 16px
+}
+
+
+
+/* SKILLS
+----------*/
+.skills-circles ul li {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+    border-radius: 50%;
+    border: 2px solid hotpink;
+    line-height: 150px;
+  }
+
+.skills-circle span { 
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.skills {background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background-1.jpg) no-repeat fixed;
+  background-position:50%;
+  background-size:100%;
+  background-size: cover;}
+
+
+.skills-list,h2,h4 {text-align: center;
+  display: block;
+}
+
+.columns {
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+}
+
+.skills h4 {text-align: center;
+}
+
+.skills-circles {text-align: center;
+display: block;
+}
+
+
+.skills-circles li {vertical-align: middle;
+display: inline-block;
+list-style: none;
+width: 33%;}
+
+
+/* EDUCATION
+-------------*/
+.education {
+  color: white;
+}
+
+
+
+/* CONTACT & FOOTER 
+--------------------*/
+.contact { background-color: #111111;
+}
+.social a { border-spacing: 10px;}
+
+
+p {
+	font-family: Cambria, Georgia, serif;}
+
+
+.download{ 
+  position: fixed;
+  top:0px;
+right:0px;
+background: black;
+display: inline-block;
+background: hotpink;
+padding: 10px;
+text-decoration: none;
+color: #fff;
+border-radius: 10%;
+}
+
+ul {list-style: none;
+  padding:0px;
+}
+
+
+
+
+
